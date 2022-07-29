@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/materialLight"
+        android:gravity="center"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="@color/materialTextColor"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/drawer_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:background="@drawable/borde_redondo"
+        android:src="@drawable/big_list"
+        />
+
+
+</RelativeLayout>
