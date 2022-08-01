@@ -8,12 +8,20 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="materialPrymary">#69f0ae</color>
-    <color name="materialLight">#9fffe0</color>
-    <color name="materialDark">#2bbd7e</color>
+    <color name="materialPrymary">#e5d2c4</color>
+    <color name="materialLight">#fffff7</color>
+    <color name="materialDark">#b3a194</color>
 
-    <color name="materialSecundary">#81c784</color>
-    <color name="materialLightSecundary">#b2fab4</color>
-    <color name="materialDarkSecundary">#519657</color>
+    <color name="materialSecundary">#c4d7e5</color>
+    <color name="materialLightSecundary">#f7ffff</color>
+    <color name="materialDarkSecundary">#93a6b3</color>
+
+
     <color name="materialTextColor">#2C292E</color>
+    <color name="materialNotSelectedTblayout">#464149</color>
+
+    <color name="tablayoutselected">#2C292E</color>
+    <color name="tablayoutselectedunselected">#b2acb5</color>
+
+
 </resources>

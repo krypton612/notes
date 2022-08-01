@@ -4,24 +4,29 @@ package com.crud.crud.custom;
 
 import android.content.Context;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
+import com.crud.crud.MainActivity;
+import com.crud.crud.ui.WriteFragment;
 import com.google.android.material.tabs.TabLayout;
+import com.lxj.xpopup.core.BasePopupView;
 import com.lxj.xpopup.core.DrawerPopupView;
 import com.crud.crud.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
-/**
- * Description: 自定义带有ViewPager的Drawer弹窗
- * Create by dance, at 2019/5/5
- */
 public class pagerdrawer extends DrawerPopupView {
+
+
     public pagerdrawer(@NonNull Context context) {
         super(context);
     }
@@ -31,18 +36,11 @@ public class pagerdrawer extends DrawerPopupView {
         return R.layout.list_drawable;
     }
 
-    TabLayout tabLayout;
-    ViewPager pager;
-    String[] titles = new String[]{"Home", "Clients", "Contacts", "Pedidos", "Enviados", "En espera"};
     @Override
     protected void onCreate() {
         super.onCreate();
-        tabLayout = findViewById(R.id.tabLayout);
-        pager = findViewById(R.id.pager);
-        pager.setOffscreenPageLimit(titles.length);
-        FragmentActivity activity = (FragmentActivity) getContext();
-        pager.setAdapter(new PAdapter(activity.getSupportFragmentManager(), titles));
-        tabLayout.setupWithViewPager(pager);
+
+
     }
 
     @Override
@@ -63,5 +61,6 @@ public class pagerdrawer extends DrawerPopupView {
         super.onDismiss();
         Log.e("tag", "PagerDrawerPopup onDismiss");
     }
+
 
 }

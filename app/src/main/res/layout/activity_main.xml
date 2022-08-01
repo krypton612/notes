@@ -7,13 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/home"
+        android:id="@+id/homeToolbar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_toEndOf="@+id/drawer_button"
         android:background="@color/materialLight"
-        android:gravity="center"
+
+        android:gravity="start|center"
         android:text="Home"
-        android:textAlignment="center"
         android:textColor="@color/materialTextColor"
         android:textSize="20dp"
         android:textStyle="normal" />
@@ -24,8 +25,18 @@
         android:layout_height="60dp"
 
         android:background="@drawable/borde_redondo"
-        android:src="@drawable/big_list"
-        />
+        android:src="@drawable/big_list" />
+
+
+    <LinearLayout
+        android:id="@+id/content2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
 
 
 </RelativeLayout>

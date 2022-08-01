@@ -1,8 +1,11 @@
 package com.crud.crud.custom;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+
+import com.crud.crud.ui.HomeBaseContent;
 
 public  class PAdapter extends FragmentPagerAdapter {
     String[] titles;
@@ -12,28 +15,30 @@ public  class PAdapter extends FragmentPagerAdapter {
 
     public PAdapter(@NonNull FragmentManager fm, String[] titles) {
         super(fm);
-        this.titles = titles;
+
     }
 
 
     @Override
     public int getCount() {
-        return 6;
+        return 3;
     }
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 2){
-            return TestFragment.create("eres perra harry");
+
+        if (position == 0){
+
+            return HomeBaseContent.create();
 
         }
         else {
-            return TestFragment.create("XPopup默认是Dialog实现，由于Android的限制，Dialog中默认无法使用Fragment。\n\n所以要想在弹窗中使用Fragment，要设置isViewMode(true).");
+
+            return TestFragment.create("Hola mundo");
+
         }
     }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return titles!=null ? titles[position] : "xpopup";
-    }
+
+
 }

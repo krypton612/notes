@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/drawable/tablayoutcolor.xml" value="0.1" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/fragment_allnote.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/fragment_home.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/fragment_home_base_content.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/fragment_home_fragment.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/fragment_rewrite.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/fragment_write.xml" value="0.1621376811594203" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/home_drawer.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/homepager.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/list_drawable.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/layout/test_fragment.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/menu/menudrawer.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/krypton612/Desktop/proyecto base de datos/notes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/bg_toast.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/big_list.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/borde_redondo.xml" value="0.1" />

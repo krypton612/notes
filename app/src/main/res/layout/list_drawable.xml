@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="280dp"
+    android:orientation="vertical" android:layout_width="260dp"
     android:background="#444"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:orientation="vertical"
         android:background="@color/materialLight"
         >
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_gravity="center"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="30dp"
             android:src="@drawable/person_icon"
             />
@@ -21,32 +22,102 @@
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="perfil"
+            android:layout_marginStart="30dp"
+            android:text="Pro Dota"
             android:textColor="@color/materialTextColor"
-            android:textAlignment="center"
-            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="15dp"
+
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Krypton612"
+            android:textColor="@color/materialTextColor"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="20dp"
 
             />
 
-    </LinearLayout>
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_marginTop="0dp"
-        app:tabIndicator="@color/materialDark"
-        android:background="@color/materialLight"
-        app:tabIndicatorHeight="3dp"
-        app:tabMode="scrollable"
-        app:tabSelectedTextColor="#fff"
-        app:tabTextColor="#aaa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/pager"
-        android:background="#fff"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonTab"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:drawableLeft="@drawable/ic_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:backgroundTint="@color/materialSecundary"
+            android:text="Home"
+            android:onClick="HomeClick"
+            android:textColor="@color/materialTextColor" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/writeButton"
+            android:layout_marginHorizontal="10dp"
+            android:drawableLeft="@drawable/ic_write"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/materialSecundary"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:text="Write"
+            android:textColor="@color/materialTextColor"
+            android:onClick="WriteClick"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rewriteButton"
+            android:layout_marginHorizontal="10dp"
+            android:drawableLeft="@drawable/ic_rewrite"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/materialSecundary"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:text="Rewrite"
+            android:onClick="RewriteClick"
+            android:textColor="@color/materialTextColor"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/allnotButton"
+            android:layout_marginHorizontal="10dp"
+            android:drawableLeft="@drawable/ic_allnotes"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/materialSecundary"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:text="All notes"
+            android:onClick="ALLnotClick"
+            android:textColor="@color/materialTextColor"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
 
 
 </LinearLayout>
